@@ -39,6 +39,14 @@ export async function hash(password, rounds) {
 
 
 export async function verify(password, hash) {
+    if (typeof password !== 'string' || !password.length) {
+        throw Error('password must be a non-empty string.');
+    }
+
+    if (typeof hash !== 'string' || !hash.length) {
+        throw Error('hash must be a non-empty string.');
+    }
+
     const translate = new GoogleTranslator();
     // Split hash string
     const splitHash = hash.split("$");
