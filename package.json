@@ -1,0 +1,15 @@
+{
+  "name": "google-translate-hash",
+  "version": "1.0.0",
+  "description": "Hash passwords with Google Translate.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Morgan 703",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@translate-tools/core": "^0.0.16"
+  }
+}
