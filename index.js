@@ -1,3 +1,8 @@
+// Name: Nick Gebo
+// VUNetID: gebons
+// Email: nicholas.s.gebo@vanderbilt.edu
+// Honor Statement: I pledge on my honor that I have neither given nor received unauthorized aid on
+//                  this assignment.
 import { GoogleTranslator } from '@translate-tools/core/translators/GoogleTranslator/index.js';
 
 const DEBUG = false;
